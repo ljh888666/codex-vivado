@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "machine": "PC2",
+  "python": "D:/vivado-mcp/codex/.venv/Scripts/python.exe",
+  "vivado_path": "D:/Xilinx/Vivado/2023.1/bin/vivado.bat",
+  "vivado_version": "2023.1",
+  "project_root": "D:/fpga/FPGA_Project/EIF-master",
+  "work_dir": "D:/fpga/FPGA_Project/EIF-master/pc2/codex-vivado/.runtime/work",
+  "temp_dir": "D:/fpga/FPGA_Project/EIF-master/pc2/codex-vivado/.runtime/tmp",
+  "part": "xcku060-ffva1156-2-i"
+}
