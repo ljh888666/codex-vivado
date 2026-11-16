@@ -1,0 +1,5 @@
+# machine=PC2
+interface:
+  display_name: "Vivado Reports"
+  short_description: "Review timing, CDC, XDC, and logs offline"
+  default_prompt: "Use $vivado-reports to review these existing Vivado artifacts and explain the findings with source evidence."
