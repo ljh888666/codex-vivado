@@ -1,0 +1,5 @@
+# machine=PC2
+interface:
+  display_name: "Vivado Workflow"
+  short_description: "Run evidence-based Vivado project workflows"
+  default_prompt: "Use $vivado-workflow to inspect this FPGA project and complete the requested Vivado work with traceable evidence."
