@@ -1,0 +1,23 @@
+{
+  "name": "codex-vivado",
+  "version": "0.1.0",
+  "description": "Vivado MCP integration, offline evidence analysis and FPGA workflow skills for Codex. Built on machine=PC2.",
+  "license": "MIT",
+  "keywords": ["vivado", "fpga", "mcp", "amd", "xilinx"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Vivado",
+    "shortDescription": "Vivado tools, reports and evidence-based FPGA workflows",
+    "longDescription": "Connect your own vivado-mcp installation, inspect offline reports, manage authorized builds and hardware debugging, and search public AMD documentation. No Vivado installation or license is included.",
+    "developerName": "PC2 local project",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#BE1E2D",
+    "defaultPrompt": [
+      "Use $vivado-workflow to inspect this project and report the next evidence-backed step.",
+      "Use $vivado-reports to analyze my timing report without starting Vivado.",
+      "Use $amd-doc-search to verify public Vivado Tcl documentation for my installed version."
+    ]
+  }
+}
