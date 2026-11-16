@@ -1,0 +1,10 @@
+{
+  "name": "codex-vivado-local",
+  "interface": {"displayName": "Codex Vivado (machine=PC2)"},
+  "plugins": [{
+    "name": "codex-vivado",
+    "source": {"source": "local", "path": "./plugins/codex-vivado"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Developer Tools"
+  }]
+}
