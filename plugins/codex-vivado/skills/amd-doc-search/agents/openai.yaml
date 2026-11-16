@@ -1,0 +1,5 @@
+# machine=PC2
+interface:
+  display_name: "AMD Documentation Search"
+  short_description: "Find AMD docs with explicit version and family checks"
+  default_prompt: "Use $amd-doc-search to verify the relevant official AMD guidance and bind it to this project's Vivado version and device."
