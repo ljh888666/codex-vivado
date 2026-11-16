@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- machine=PC2: synthetic offline-parser fixture, not a hardware project. -->
+<Project Version="7" Minor="61" Path="minimal.xpr">
+  <Configuration>
+    <Option Name="Part" Val="xcku060-ffva1156-2-i"/>
+    <Option Name="TargetLanguage" Val="Verilog"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+      <Config><Option Name="TopModule" Val="offline_fixture"/></Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs"><Config/></FileSet>
+  </FileSets>
+  <Runs Version="1" Minor="19">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xcku060-ffva1156-2-i" ConstrsSet="constrs_1"/>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xcku060-ffva1156-2-i"/>
+  </Runs>
+</Project>
