@@ -1,0 +1,23 @@
+codex-vivado 0.1.0 | machine=PC2 | 2026-11-16
+
+Reference design: https://github.com/chemmy-11/dsh-vivado
+Reviewed upstream commit: 1c78db4e3344641d32dd6f00a490055f068d654c (0.2.4).
+The reference separates a Vivado MCP backend, workflow skills, machine-local
+configuration, environment diagnostics, and installation. This implementation
+uses the native Codex plugin/marketplace format instead of DSH profile patches.
+
+scripts/amd_doc_search.py is adapted from:
+https://github.com/chemmy-11/dsh-vivado/blob/main/skills/amd-doc-search/doc_search.py
+Copyright (c) 2026 chemmy-11, MIT. Original copyright and permission preserved
+in LICENSE. Local reference file SHA256:
+8141d379afca9d823458299c49edf36dddef9c4e4477cdafc4aa8e545d7994d0
+Changes: SSE streaming termination and strict response matching, protocol
+error visibility, argument bounds, complete JSON/error preservation, tests.
+
+The four skills in this package are newly authored for Codex. The AMD VSIX
+skills and their supporting files are not redistributed by this package.
+
+vivado-mcp is an independently installed external dependency, Apache-2.0;
+neither its sources nor Python dependencies are bundled or modified.
+Vivado, licenses, AMD service data and DSH source/runtime are not bundled.
+This is a local third-party plugin, not an OpenAI or AMD product endorsement.

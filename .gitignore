@@ -1,0 +1,11 @@
+# machine=PC2
+__pycache__/
+*.pyc
+.runtime/
+.test-home/
+config.local.json
+environment.json
+*.log
+*.jou
+*.bit
+*.dcp
